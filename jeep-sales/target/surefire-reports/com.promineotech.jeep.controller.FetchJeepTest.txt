@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.promineotech.jeep.controller.FetchJeepTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.618 s <<< FAILURE! - in com.promineotech.jeep.controller.FetchJeepTest
+testThatJeepsAreReturnedWhenAValidModelAndTrimAreSupplied  Time elapsed: 0.014 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.springframework.boot.test.web.client.TestRestTemplate.exchange(String, org.springframework.http.HttpMethod, org.springframework.http.HttpEntity, org.springframework.core.ParameterizedTypeReference, Object[])" because "this.restTemplate" is null
+	at com.promineotech.jeep.controller.FetchJeepTest.<init>(FetchJeepTest.java:41)
+
